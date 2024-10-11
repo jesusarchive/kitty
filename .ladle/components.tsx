@@ -1,6 +1,5 @@
-import React from "react";
-import "./styles.css";
+import "../src/index.css";
 
-export default function (props) {
-  return <div className="bg-red-500" {...props}></div>;
-}
+export const Provider = ({ children }) => {
+  return <>{children}</>;
+};

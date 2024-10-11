@@ -1,14 +1,18 @@
-import { Story, StoryDefault } from "@ladle/react";
-import { Checkbox, CheckboxProps } from "./checkbox";
+import type { Story, StoryDefault } from "@ladle/react";
+import Checkbox, { type CheckboxProps } from "./checkbox";
+import { useState } from "react";
 
 export default {
-  title: "Checkbox",
+  title: "components/ui/checkbox",
 } satisfies StoryDefault<CheckboxProps>;
 
-export const Example: Story<CheckboxProps> = ({ checked }) => (
-  <Checkbox checked={checked} />
-);
-
-Example.args = {
-  checked: true,
+export const Example: Story<CheckboxProps> = (props: CheckboxProps) => {
+  const [checked, setChecked] = useState(false);
+  return (
+    <Checkbox
+      {...props}
+      checked={checked}
+      onClick={() => setChecked(!checked)}
+    />
+  );
 };

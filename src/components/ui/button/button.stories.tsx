@@ -1,16 +1,14 @@
-import type { StoryDefault, Story } from "@ladle/react";
-import Button, { ButtonProps } from "./button";
+import type { Story, StoryDefault } from "@ladle/react";
+import Button, { type ButtonProps } from "./button";
 
 export default {
-  title: "Button",
+  title: "components/ui/button",
 } satisfies StoryDefault<ButtonProps>;
 
-export const Example: Story<ButtonProps> = (props) => <Button {...props} />;
+export const Example: Story<ButtonProps> = () => (
+  <Button onClick={console.log}>Button</Button>
+);
 
-Example.argTypes = {
-  variant: {
-    control: { type: "select" },
-    options: ["primary", "secondary", "danger", "ghost"],
-    defaultValue: "default",
-  },
+Example.args = {
+  children: "Button",
 };
