@@ -86,7 +86,6 @@ export const BreadcrumbSeparator = ({
 BreadcrumbSeparator.displayName = "BreadcrumbSeparator";
 
 export type BreadcrumbEllipsisProps = React.ComponentProps<"span">;
-
 export const BreadcrumbEllipsis = ({
   className,
   ...props
@@ -106,7 +105,6 @@ BreadcrumbEllipsis.displayName = "BreadcrumbElipssis";
 export type BreadcrumbProps = React.ComponentPropsWithoutRef<"nav"> & {
   separator?: React.ReactNode;
 };
-
 export const Breadcrumb = React.forwardRef<HTMLElement, BreadcrumbProps>(
   ({ ...props }, ref) => <nav ref={ref} aria-label="breadcrumb" {...props} />
 );
