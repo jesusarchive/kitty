@@ -2,7 +2,7 @@ import { Terminal } from "lucide-react";
 
 import Alert, { AlertDescription, AlertTitle } from "..";
 
-export const Scenario = () => {
+export function Scenario() {
   return (
     <Alert>
       <Terminal className="h-4 w-4" />
@@ -13,4 +13,4 @@ export const Scenario = () => {
       </AlertDescription>
     </Alert>
   );
-};
+}

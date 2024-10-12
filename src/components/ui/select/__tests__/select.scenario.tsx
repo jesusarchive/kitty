@@ -7,7 +7,7 @@ import Select, {
   SelectValue,
 } from "..";
 
-export const Scenario = () => {
+export function Scenario() {
   return (
     <Select>
       <SelectTrigger className="w-[180px]">
@@ -25,4 +25,4 @@ export const Scenario = () => {
       </SelectContent>
     </Select>
   );
-};
+}

@@ -12,7 +12,7 @@ import Dialog, {
   DialogTrigger,
 } from "..";
 
-export const Scenario = () => {
+export function Scenario() {
   return (
     <Dialog>
       <DialogTrigger asChild>
@@ -53,4 +53,4 @@ export const Scenario = () => {
       </DialogContent>
     </Dialog>
   );
-};
+}

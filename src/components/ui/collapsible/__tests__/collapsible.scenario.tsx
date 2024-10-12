@@ -4,7 +4,7 @@ import React from "react";
 import Button from "../../button";
 import Collapsible, { CollapsibleContent, CollapsibleTrigger } from "..";
 
-export const Scenario = () => {
+export function Scenario() {
   const [isOpen, setIsOpen] = React.useState(false);
 
   return (
@@ -35,4 +35,4 @@ export const Scenario = () => {
       </CollapsibleContent>
     </Collapsible>
   );
-};
+}

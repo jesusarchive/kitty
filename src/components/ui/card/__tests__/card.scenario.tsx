@@ -11,7 +11,7 @@ import Card, {
   CardTitle,
 } from "..";
 
-export const Scenario = () => {
+export function Scenario() {
   return (
     <Card className="w-[350px]">
       <CardHeader>
@@ -34,4 +34,4 @@ export const Scenario = () => {
       </CardFooter>
     </Card>
   );
-};
+}

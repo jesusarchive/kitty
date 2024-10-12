@@ -1,6 +1,6 @@
 import Separator from "..";
 
-export const Scenario = () => {
+export function Scenario() {
   return (
     <div>
       <div className="space-y-1">
@@ -19,4 +19,4 @@ export const Scenario = () => {
       </div>
     </div>
   );
-};
+}

@@ -31,7 +31,7 @@ import DropdownMenu, {
   DropdownMenuTrigger,
 } from "..";
 
-export const Scenario = () => {
+export function Scenario() {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
@@ -119,4 +119,4 @@ export const Scenario = () => {
       </DropdownMenuContent>
     </DropdownMenu>
   );
-};
+}

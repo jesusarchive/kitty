@@ -7,7 +7,7 @@ import Breadcrumb, {
   BreadcrumbSeparator,
 } from "..";
 
-export const Scenario = () => {
+export function Scenario() {
   return (
     <Breadcrumb>
       <BreadcrumbList>
@@ -27,4 +27,4 @@ export const Scenario = () => {
       </BreadcrumbList>
     </Breadcrumb>
   );
-};
+}

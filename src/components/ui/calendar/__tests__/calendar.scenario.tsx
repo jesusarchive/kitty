@@ -1,7 +1,8 @@
 import React from "react";
+
 import Calendar from "..";
 
-export const Scenario = () => {
+export function Scenario() {
   const [date, setDate] = React.useState<Date | undefined>(new Date());
 
   return (
@@ -12,4 +13,4 @@ export const Scenario = () => {
       className="rounded-md border"
     />
   );
-};
+}

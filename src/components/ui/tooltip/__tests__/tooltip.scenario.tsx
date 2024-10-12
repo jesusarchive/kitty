@@ -1,7 +1,7 @@
 import Button from "../../button";
 import Tooltip, { TooltipContent, TooltipProvider, TooltipTrigger } from "..";
 
-export const Scenario = () => {
+export function Scenario() {
   return (
     <TooltipProvider>
       <Tooltip>
@@ -14,4 +14,4 @@ export const Scenario = () => {
       </Tooltip>
     </TooltipProvider>
   );
-};
+}

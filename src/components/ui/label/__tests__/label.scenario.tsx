@@ -1,5 +1,5 @@
 import Label from "..";
 
-export const Scenario = () => {
+export function Scenario() {
   return <Label>Label</Label>;
-};
+}
