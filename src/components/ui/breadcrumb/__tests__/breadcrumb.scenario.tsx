@@ -1,21 +1,6 @@
-import type { Story, StoryDefault } from "@ladle/react";
+import { Breadcrumb, BreadcrumbEllipsis, BreadcrumbItem, BreadcrumbLink, BreadcrumbList, BreadcrumbPage, BreadcrumbSeparator } from "..";
 
-import {
-  Breadcrumb,
-  BreadcrumbEllipsis,
-  BreadcrumbItem,
-  BreadcrumbLink,
-  BreadcrumbList,
-  BreadcrumbPage,
-  type BreadcrumbProps,
-  BreadcrumbSeparator,
-} from "./breadcrumb";
-
-export default {
-  title: "components/ui/breadcrumb",
-} satisfies StoryDefault<BreadcrumbProps>;
-
-export const BreadcrumbDemo: Story<BreadcrumbProps> = () => {
+export const Scenario = () => {
   return (
     <Breadcrumb>
       <BreadcrumbList>
@@ -34,5 +19,6 @@ export const BreadcrumbDemo: Story<BreadcrumbProps> = () => {
         </BreadcrumbItem>
       </BreadcrumbList>
     </Breadcrumb>
+  );
   );
 };

@@ -1,13 +1,8 @@
-import type { Story, StoryDefault } from "@ladle/react";
 import { Terminal } from "lucide-react";
 
-import Alert, { AlertDescription, type AlertProps, AlertTitle } from "./alert";
+import Alert, { AlertDescription, AlertTitle } from "..";
 
-export default {
-  title: "components/ui/alert",
-} satisfies StoryDefault<AlertProps>;
-
-export const AlertDemo: Story<AlertProps> = () => {
+export const Scenario = () => {
   return (
     <Alert>
       <Terminal className="h-4 w-4" />

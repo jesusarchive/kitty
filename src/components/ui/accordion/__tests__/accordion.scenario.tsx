@@ -1,17 +1,10 @@
-import type { Story, StoryDefault } from "@ladle/react";
-
 import Accordion, {
   AccordionContent,
   AccordionItem,
-  AccordionProps,
   AccordionTrigger,
-} from "./accordion";
+} from "..";
 
-export default {
-  title: "components/ui/accordion",
-} satisfies StoryDefault<AccordionProps>;
-
-export const AccordionDemo: Story<AccordionProps> = () => {
+export function Scenario() {
   return (
     <Accordion type="single" collapsible className="w-full">
       <AccordionItem value="item-1">
@@ -36,4 +29,4 @@ export const AccordionDemo: Story<AccordionProps> = () => {
       </AccordionItem>
     </Accordion>
   );
-};
+}
