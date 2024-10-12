@@ -1,6 +1,7 @@
+import type { Story, StoryDefault } from "@ladle/react";
+
 import { ScrollArea, type ScrollAreaProps } from "@/components/ui/scroll-area";
 import { Separator } from "@/components/ui/separator";
-import type { Story, StoryDefault } from "@ladle/react";
 
 export default {
   title: "components/ui/scroll-area",

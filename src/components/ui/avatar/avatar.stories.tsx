@@ -1,8 +1,9 @@
 import type { Story, StoryDefault } from "@ladle/react";
+
 import Avatar, {
-  type AvatarProps,
-  AvatarImage,
   AvatarFallback,
+  AvatarImage,
+  type AvatarProps,
 } from "./avatar";
 
 export default {

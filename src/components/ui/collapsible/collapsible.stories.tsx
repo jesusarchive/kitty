@@ -1,12 +1,13 @@
 import type { Story, StoryDefault } from "@ladle/react";
 import { ChevronsUpDown } from "lucide-react";
 import React from "react";
+
+import Button from "../button";
 import Collapsible, {
   CollapsibleContent,
   type CollapsibleProps,
   CollapsibleTrigger,
 } from "./collapsible";
-import Button from "../button";
 
 export default {
   title: "components/ui/collapsible",

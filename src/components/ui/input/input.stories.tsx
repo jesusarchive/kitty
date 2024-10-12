@@ -1,6 +1,7 @@
 import type { Story, StoryDefault } from "@ladle/react";
-import Input, { type InputProps } from "./input";
 import { useState } from "react";
+
+import Input, { type InputProps } from "./input";
 
 export default {
   title: "components/ui/input",

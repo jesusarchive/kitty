@@ -1,4 +1,7 @@
+import type { Story, StoryDefault } from "@ladle/react";
+
 import { Button } from "@/components/ui/button";
+
 import {
   Tooltip,
   TooltipContent,
@@ -6,7 +9,6 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "./tooltip";
-import type { Story, StoryDefault } from "@ladle/react";
 
 export default {
   title: "components/ui/tooltip",

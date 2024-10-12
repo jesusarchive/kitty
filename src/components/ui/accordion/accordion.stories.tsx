@@ -1,10 +1,10 @@
 import type { Story, StoryDefault } from "@ladle/react";
 
 import Accordion, {
-  AccordionItem,
-  AccordionTrigger,
   AccordionContent,
+  AccordionItem,
   AccordionProps,
+  AccordionTrigger,
 } from "./accordion";
 
 export default {

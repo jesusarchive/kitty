@@ -1,16 +1,18 @@
+import type { Story, StoryDefault } from "@ladle/react";
+
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import type { Story, StoryDefault } from "@ladle/react";
+
 import {
   Dialog,
   DialogContent,
   DialogDescription,
   DialogFooter,
   DialogHeader,
+  type DialogProps,
   DialogTitle,
   DialogTrigger,
-  type DialogProps,
 } from "./dialog";
 
 export default {

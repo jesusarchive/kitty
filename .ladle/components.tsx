@@ -1,6 +1,8 @@
+import "../src/index.css";
+
 import type { GlobalProvider } from "@ladle/react";
 import React from "react";
-import "../src/index.css";
+
 import { ThemeProvider } from "../src/providers/theme-provider/theme-provider";
 
 export const argTypes = {

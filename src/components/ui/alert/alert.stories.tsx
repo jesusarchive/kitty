@@ -1,6 +1,6 @@
 import type { Story, StoryDefault } from "@ladle/react";
-
 import { Terminal } from "lucide-react";
+
 import Alert, { AlertDescription, type AlertProps, AlertTitle } from "./alert";
 
 export default {

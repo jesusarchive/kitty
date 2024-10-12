@@ -1,4 +1,8 @@
 import type { Story, StoryDefault } from "@ladle/react";
+import { Label } from "@radix-ui/react-label";
+
+import Button from "../button";
+import Input from "../input";
 import Card, {
   CardContent,
   CardDescription,
@@ -7,9 +11,6 @@ import Card, {
   CardProps,
   CardTitle,
 } from "./card";
-import { Label } from "@radix-ui/react-label";
-import Button from "../button";
-import Input from "../input";
 
 export default {
   title: "components/ui/card",

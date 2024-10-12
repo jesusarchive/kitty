@@ -1,3 +1,4 @@
+import { Story, StoryDefault } from "@ladle/react";
 import {
   Cloud,
   CreditCard,
@@ -23,15 +24,14 @@ import {
   DropdownMenuItem,
   DropdownMenuLabel,
   DropdownMenuPortal,
+  type DropdownMenuProps,
   DropdownMenuSeparator,
   DropdownMenuShortcut,
   DropdownMenuSub,
   DropdownMenuSubContent,
   DropdownMenuSubTrigger,
   DropdownMenuTrigger,
-  type DropdownMenuProps,
 } from "@/components/ui/dropdown-menu";
-import { Story, StoryDefault } from "@ladle/react";
 
 export default {
   title: "components/ui/dropdown-menu",

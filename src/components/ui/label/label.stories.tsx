@@ -1,4 +1,5 @@
 import type { Story, StoryDefault } from "@ladle/react";
+
 import Label, { type LabelProps } from "./label";
 
 export default {

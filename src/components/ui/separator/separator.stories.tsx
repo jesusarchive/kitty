@@ -1,4 +1,5 @@
 import type { Story, StoryDefault } from "@ladle/react";
+
 import Separator, { type SeparatorProps } from "./separator";
 
 export default {

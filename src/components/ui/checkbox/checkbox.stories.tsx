@@ -1,4 +1,5 @@
 import type { Story, StoryDefault } from "@ladle/react";
+
 import Checkbox, { type CheckboxProps } from "./checkbox";
 
 export default {
