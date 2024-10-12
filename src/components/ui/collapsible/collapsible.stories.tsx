@@ -12,7 +12,7 @@ export default {
   title: "components/ui/collapsible",
 } satisfies StoryDefault<CollapsibleProps>;
 
-export const Example: Story<CollapsibleProps> = () => {
+export const CollapsibleDemo: Story<CollapsibleProps> = () => {
   const [isOpen, setIsOpen] = React.useState(false);
 
   return (

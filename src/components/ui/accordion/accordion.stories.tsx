@@ -11,7 +11,7 @@ export default {
   title: "components/ui/accordion",
 } satisfies StoryDefault<AccordionProps>;
 
-export const Example: Story<AccordionProps> = () => {
+export const AccordionDemo: Story<AccordionProps> = () => {
   return (
     <Accordion type="single" collapsible className="w-full">
       <AccordionItem value="item-1">

@@ -9,7 +9,7 @@ export default {
   title: "components/ui/avatar",
 } satisfies StoryDefault<AvatarProps>;
 
-export const Example: Story<AvatarProps> = () => {
+export const AvatarDemo: Story<AvatarProps> = () => {
   return (
     <Avatar>
       <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" />

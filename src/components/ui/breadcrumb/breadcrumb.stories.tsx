@@ -14,7 +14,7 @@ export default {
   title: "components/ui/breadcrumb",
 } satisfies StoryDefault<BreadcrumbProps>;
 
-export const Example: Story<BreadcrumbProps> = () => {
+export const BreadcrumbDemo: Story<BreadcrumbProps> = () => {
   return (
     <Breadcrumb>
       <BreadcrumbList>

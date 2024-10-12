@@ -15,7 +15,7 @@ export default {
   title: "components/ui/card",
 } satisfies StoryDefault<CardProps>;
 
-export const Example: Story<CardProps> = (props) => (
+export const CardDemo: Story<CardProps> = (props) => (
   <Card className="w-[350px]" {...props}>
     <CardHeader>
       <CardTitle>Create project</CardTitle>

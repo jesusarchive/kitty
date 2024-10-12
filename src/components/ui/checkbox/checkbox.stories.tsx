@@ -5,7 +5,7 @@ export default {
   title: "components/ui/checkbox",
 } satisfies StoryDefault<CheckboxProps>;
 
-export const Example: Story<CheckboxProps> = () => {
+export const CheckboxDemo: Story<CheckboxProps> = () => {
   return (
     <div className="flex items-center space-x-2">
       <Checkbox id="terms" />

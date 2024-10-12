@@ -17,7 +17,7 @@ export default {
   title: "components/ui/dialog",
 } satisfies StoryDefault<DialogProps>;
 
-export const Example: Story<DialogProps> = () => {
+export const DialogDemo: Story<DialogProps> = () => {
   return (
     <Dialog>
       <DialogTrigger asChild>

@@ -5,7 +5,7 @@ export default {
   title: "components/ui/separator",
 } satisfies StoryDefault<SeparatorProps>;
 
-export const Example: Story<SeparatorProps> = () => {
+export const SepearatorDemo: Story<SeparatorProps> = () => {
   return (
     <div>
       <div className="space-y-1">

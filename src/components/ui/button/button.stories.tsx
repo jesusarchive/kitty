@@ -5,10 +5,6 @@ export default {
   title: "components/ui/button",
 } satisfies StoryDefault<ButtonProps>;
 
-export const Example: Story<ButtonProps> = () => (
+export const ButtonDemo: Story<ButtonProps> = () => (
   <Button onClick={console.log}>Button</Button>
 );
-
-Example.args = {
-  children: "Button",
-};

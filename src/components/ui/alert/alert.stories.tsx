@@ -7,7 +7,7 @@ export default {
   title: "components/ui/alert",
 } satisfies StoryDefault<AlertProps>;
 
-export const Example: Story<AlertProps> = () => {
+export const AlertDemo: Story<AlertProps> = () => {
   return (
     <Alert>
       <Terminal className="h-4 w-4" />
