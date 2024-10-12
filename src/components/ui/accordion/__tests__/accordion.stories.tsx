@@ -1,4 +1,4 @@
-import { StoryDefault } from "@ladle/react";
+import type { StoryDefault } from "@ladle/react";
 
 import { AccordionProps } from "..";
 import { Scenario as AccordionDefault } from "./accordion.scenario";

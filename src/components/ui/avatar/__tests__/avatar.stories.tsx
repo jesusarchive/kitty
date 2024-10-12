@@ -1,4 +1,4 @@
-import { StoryDefault } from "@ladle/react";
+import type { StoryDefault } from "@ladle/react";
 
 import { AvatarProps } from "..";
 import { Scenario as AvatarDefault } from "./avatar.scenario";
