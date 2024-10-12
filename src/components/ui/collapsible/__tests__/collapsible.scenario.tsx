@@ -1,19 +1,10 @@
-import type { Story, StoryDefault } from "@ladle/react";
 import { ChevronsUpDown } from "lucide-react";
 import React from "react";
 
-import Button from "../button";
-import Collapsible, {
-  CollapsibleContent,
-  type CollapsibleProps,
-  CollapsibleTrigger,
-} from "./collapsible";
+import Button from "../../button";
+import Collapsible, { CollapsibleContent, CollapsibleTrigger } from "..";
 
-export default {
-  title: "components/ui/collapsible",
-} satisfies StoryDefault<CollapsibleProps>;
-
-export const CollapsibleDemo: Story<CollapsibleProps> = () => {
+export const Scenario = () => {
   const [isOpen, setIsOpen] = React.useState(false);
 
   return (

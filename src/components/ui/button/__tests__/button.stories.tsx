@@ -1,4 +1,5 @@
 import type { StoryDefault } from "@ladle/react";
+
 import type { ButtonProps } from "..";
 import { Scenario as ButtonDefault } from "./button.scenario";
 

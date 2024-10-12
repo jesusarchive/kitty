@@ -1,4 +1,5 @@
 import type { StoryDefault } from "@ladle/react";
+
 import type { BreadcrumbProps } from "..";
 import { Scenario as BreadcrumbDefault } from "./breadcrumb.scenario";
 

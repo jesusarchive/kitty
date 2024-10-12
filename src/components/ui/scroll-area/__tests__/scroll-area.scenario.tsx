@@ -1,17 +1,12 @@
-import type { Story, StoryDefault } from "@ladle/react";
+import Separator from "@/components/ui/separator";
 
-import { ScrollArea, type ScrollAreaProps } from "@/components/ui/scroll-area";
-import { Separator } from "@/components/ui/separator";
-
-export default {
-  title: "components/ui/scroll-area",
-} satisfies StoryDefault<ScrollAreaProps>;
+import ScrollArea from "..";
 
 const tags = Array.from({ length: 50 }).map(
   (_, i, a) => `v1.2.0-beta.${a.length - i}`
 );
 
-export const ScriollAreaDemo: Story<ScrollAreaProps> = () => {
+export const Scenario = () => {
   return (
     <ScrollArea className="h-72 w-48 rounded-md border">
       <div className="p-4">

@@ -1,12 +1,6 @@
-import type { Story, StoryDefault } from "@ladle/react";
+import Checkbox from "..";
 
-import Checkbox, { type CheckboxProps } from "./checkbox";
-
-export default {
-  title: "components/ui/checkbox",
-} satisfies StoryDefault<CheckboxProps>;
-
-export const CheckboxDemo: Story<CheckboxProps> = () => {
+export const Scenario = () => {
   return (
     <div className="flex items-center space-x-2">
       <Checkbox id="terms" />

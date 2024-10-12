@@ -1,4 +1,11 @@
-import { Breadcrumb, BreadcrumbEllipsis, BreadcrumbItem, BreadcrumbLink, BreadcrumbList, BreadcrumbPage, BreadcrumbSeparator } from "..";
+import Breadcrumb, {
+  BreadcrumbEllipsis,
+  BreadcrumbItem,
+  BreadcrumbLink,
+  BreadcrumbList,
+  BreadcrumbPage,
+  BreadcrumbSeparator,
+} from "..";
 
 export const Scenario = () => {
   return (
@@ -19,6 +26,5 @@ export const Scenario = () => {
         </BreadcrumbItem>
       </BreadcrumbList>
     </Breadcrumb>
-  );
   );
 };

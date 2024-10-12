@@ -1,12 +1,6 @@
-import type { Story, StoryDefault } from "@ladle/react";
+import Separator from "..";
 
-import Separator, { type SeparatorProps } from "./separator";
-
-export default {
-  title: "components/ui/separator",
-} satisfies StoryDefault<SeparatorProps>;
-
-export const SepearatorDemo: Story<SeparatorProps> = () => {
+export const Scenario = () => {
   return (
     <div>
       <div className="space-y-1">

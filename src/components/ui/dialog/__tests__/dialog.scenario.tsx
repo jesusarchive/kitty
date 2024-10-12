@@ -1,25 +1,18 @@
-import type { Story, StoryDefault } from "@ladle/react";
+import { Label } from "@radix-ui/react-label";
 
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
+import Button from "@/components/ui/button";
+import Input from "@/components/ui/input";
 
-import {
-  Dialog,
+import Dialog, {
   DialogContent,
   DialogDescription,
   DialogFooter,
   DialogHeader,
-  type DialogProps,
   DialogTitle,
   DialogTrigger,
-} from "./dialog";
+} from "..";
 
-export default {
-  title: "components/ui/dialog",
-} satisfies StoryDefault<DialogProps>;
-
-export const DialogDemo: Story<DialogProps> = () => {
+export const Scenario = () => {
   return (
     <Dialog>
       <DialogTrigger asChild>

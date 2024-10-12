@@ -1,4 +1,3 @@
-import { Story, StoryDefault } from "@ladle/react";
 import {
   Cloud,
   CreditCard,
@@ -16,28 +15,23 @@ import {
   Users,
 } from "lucide-react";
 
-import { Button } from "@/components/ui/button";
-import {
-  DropdownMenu,
+import Button from "@/components/ui/button";
+
+import DropdownMenu, {
   DropdownMenuContent,
   DropdownMenuGroup,
   DropdownMenuItem,
   DropdownMenuLabel,
   DropdownMenuPortal,
-  type DropdownMenuProps,
   DropdownMenuSeparator,
   DropdownMenuShortcut,
   DropdownMenuSub,
   DropdownMenuSubContent,
   DropdownMenuSubTrigger,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
+} from "..";
 
-export default {
-  title: "components/ui/dropdown-menu",
-} satisfies StoryDefault<DropdownMenuProps>;
-
-export const DropdownMenuDemo: Story<DropdownMenuProps> = () => {
+export const Scenario = () => {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
