@@ -1,5 +1,5 @@
 import Badge from "..";
 
 export function Scenario() {
-  return <Badge>Badge</Badge>;
+  return <Badge variant="destructive">Badge</Badge>;
 }

@@ -16,7 +16,7 @@ export function Scenario() {
       <AlertDialogTrigger asChild>
         <Button variant="outline">Show Dialog</Button>
       </AlertDialogTrigger>
-      <AlertDialogContent>
+      <AlertDialogContent className="bg-white">
         <AlertDialogHeader>
           <AlertDialogTitle>Are you absolutely sure?</AlertDialogTitle>
           <AlertDialogDescription>
